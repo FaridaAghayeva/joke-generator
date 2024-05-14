@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(143, 202, 204);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#container {
+  margin: auto;
+  margin-top: 15%;
+  padding: 20px;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px grey;
+}
+.answer {
+  display: none;
+}
+button {
+  background-color: rgb(196, 160, 50);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px grey;
+  width: 150px;
+  height: 50px;
+  border: 0 solid;
+}
+#joke {
+  font-size: 20px;
+  font-weight: bold;
+}
+.id{
+    font-size: 20px;
+    font-weight: bold;
+}
